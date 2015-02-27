@@ -17,10 +17,11 @@ file(
 
 add_executable(src ${source_files})
 
-#target_link_libraries(
-#    src
+target_link_libraries(
+    src
+    casablanca
 #    boost_system
 #    boost_filesystem
 #    boost_program_options
 #    boost_date_time
-#)
+)
